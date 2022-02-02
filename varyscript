@@ -1,0 +1,25 @@
+#!/bin/bash
+#DESCRIPTION: KNOW YOUR AGE CATEGORY
+#AUTHOR: ADE ADEBISI
+#DATE: 02/28/2022
+
+
+
+echo "what is your age?"
+read y
+ if
+  [ $y -lt 17 ]
+then
+echo "YOU ARE A MINOR"
+elif
+ [ $y == 18 ] || [ $y -lt 60 ]
+then
+echo "YOU ARE AN ADULT"
+elif
+ [ $y -gt 60 ]
+then 
+echo "YOU ARE SENIOR CITIZEN"
+
+
+fi 
+

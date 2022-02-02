@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "PLEASE ENTER THE GROUPNAME"
+read G
+grep ${G} /etc/groups
+if 
+[ $? -eq 0 ]
+then
+echo "	GROUPNAME IS CORRECT"
+else
+echo "GROUPNAME IS WRONG"
+fi

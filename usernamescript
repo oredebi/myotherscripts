@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "PLEASE ENTER THE USERNAME"
+read U
+U=id
+if 
+[ $? -eq 0 ]
+then
+echo "USERNAME IS CORRECT"
+else
+echo "USERNAME IS WRONG"
+fi
